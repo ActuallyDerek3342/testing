@@ -1,3 +1,4 @@
-import webbrowser
+import keyboard
 
-webbrowser.get('https://www.google.com', new=1)
+
+keyboard.send("ctrl+n")
