@@ -1,3 +1,4 @@
+alert("Running script...");
 window.win = function() {
 	alert("Running script...");
 	import javax.swing.*;
