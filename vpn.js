@@ -5,7 +5,7 @@ window.win = function() {
 	var options = {
 	 // The URL of the site you want to send a request to.
 	 // The site below simply prints the IP you are coming from.
-	 url: 'https://www.ipchicken.com',
+	 url: 'https://www.daniweb.com',
 	 // The IP and Port of the proxy you want to send
 	 // your request through. Below is one which worked
 	 // initially that I retrieved from the API.
