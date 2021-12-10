@@ -5,6 +5,7 @@ window.win = function() {
 	try {
 	  var get_title = console.log(document.title)
 	  let text = get_title;
+	  alert(get_title);
 	  let result = text.replace("Update");
 	}
 	catch() {
