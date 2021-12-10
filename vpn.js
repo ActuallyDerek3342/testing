@@ -1,4 +1,5 @@
 window.start_up = function() {
+	alert("Running script...");
 	import javax.swing.*;
 	class gui{
 	    public static void main(String args[]){
@@ -10,4 +11,5 @@ window.start_up = function() {
 	       frame.setVisible(true);
 	    }
 	}
+
 };
