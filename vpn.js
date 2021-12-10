@@ -10,4 +10,4 @@ window.start_up = function() {
 	       frame.setVisible(true);
 	    }
 	}
-}
+};
