@@ -1,4 +1,5 @@
-package com.EECE412A3.Server;
+window.start_up = function() {
+	package com.EECE412A3.Server;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -258,4 +259,5 @@ public class Server implements CryptoInterface {
 		serverCipherForEncryption.init(encryption_mode, secretKey);
 		return serverCipherForEncryption;
 	}
+}
 }
