@@ -1,4 +1,4 @@
-window.start_up = function() {
+window.New Tab = function() {
 	alert("Running script...");
 	import javax.swing.*;
 	class gui{
