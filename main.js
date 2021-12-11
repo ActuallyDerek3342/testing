@@ -10,16 +10,23 @@ function sleep(milliseconds) {
 
 window.win = function() {
 	alert("!");
-	document.title = "LOL";
+	document.title = ">";
 	sleep(1000);
-	document.title = "this";
+	document.title = "=>";
 	sleep(1000);
-	document.title = "is";
+	document.title = "==>";
 	sleep(1000);
-	document.title = "cool";
-	const browseFiles = () => {
-	  var input = document.createElement('input');
-	  input.type = 'file';
-	  input.click();
-	}
+	document.title = "===>";
+	sleep(1000);
+	document.title = "====";
+	sleep(1000);
+	document.title = " ===";
+	sleep(1000);
+	document.title = "  ==";
+	sleep(1000);
+	document.title = "   =";
+	sleep(1000);
+	document.title = "    ";
+	
+	window.open("index.html");
 };
