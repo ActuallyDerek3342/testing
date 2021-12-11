@@ -16,6 +16,6 @@ window.win = function() {
 	alert(getRandomInt(7));
 	document.title = ":)";
 	
-	alert(document.getElementsByName('Vp6PHf'));
+	
 	
 };
