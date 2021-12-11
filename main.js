@@ -2,7 +2,7 @@
 window.win = function() {
 	alert("running");
 	
-	var file = "<html><body style='background-color: black'><h1>Derek's page</h1></body></html>";
+	var file = "<html><body style='background-color: black'><p style='color: red'>Derek's page</p></body></html>";
 	
 	document.write(file);
 };
