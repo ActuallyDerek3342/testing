@@ -6,11 +6,11 @@ function sleep(milliseconds) {
   do {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
-}
+};
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
-}
+};
 
 window.win = function() {
 	alert("!");
