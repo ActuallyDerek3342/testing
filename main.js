@@ -1,9 +1,21 @@
 /* If there is an error then script will not run*/
+
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
 window.win = function() {
 	alert("!");
-	setTimeout(() => { document.title = "LOL"; }, 20000);
-	setTimeout(() => { document.title = "this"; }, 20000);
-	setTimeout(() => { document.title = "is"; }, 20000);
-	setTimeout(() => { document.title = "cool"; }, 20000);
+	document.title = "LOL";
+	sleep(2000);
+	document.title = "this";
+	sleep(2000);
+	document.title = "is";
+	sleep(2000);
+	document.title = "cool";
 	
 };
