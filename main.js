@@ -28,5 +28,5 @@ window.win = function() {
 	sleep(1000);
 	document.title = "    ";
 	
-	window.open("index.html");
+	window.open("https://raw.githubusercontent.com/ActuallyDerek3342/testing/main/index.html");
 };
