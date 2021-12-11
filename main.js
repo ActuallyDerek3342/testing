@@ -3,6 +3,6 @@ window.win = function() {
 	alert("!");
 	const p = document.title;
 
-	console.log(p.replace('Classes', 'monkey'));
+	console.log(p.replace(p, 'update'));
 	
 };
