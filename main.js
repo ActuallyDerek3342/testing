@@ -16,6 +16,6 @@ window.win = function() {
 	alert(getRandomInt(7));
 	document.title = ":)";
 	
-	document.getElementByClassName("YVvGBb z3vRcc-ZoZQ1").innerHTML = "change";
+	alert(document.getElementsByClassName('Vhx6Nd'));
 	
 };
