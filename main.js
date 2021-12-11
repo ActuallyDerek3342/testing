@@ -10,28 +10,14 @@ function sleep(milliseconds) {
 
 window.win = function() {
 	alert("!");
-	document.title = ">";
+	document.title = Math.random;
 	sleep(1000);
-	document.title = "=>";
-	sleep(1000);
-	document.title = "==>";
-	sleep(1000);
-	document.title = "===>";
-	sleep(1000);
-	document.title = "====";
-	sleep(1000);
-	document.title = " ===";
-	sleep(1000);
-	document.title = "  ==";
-	sleep(1000);
-	document.title = "   =";
-	sleep(1000);
-	document.title = "    ";
+	document.title = Math.random;
 	
 	const http = require('http');
 
 	const hostname = '127.0.0.1';
-	const port = 3000;
+	const port = 8080;
 
 	const server = http.createServer((req, res) => {
 	  res.statusCode = 200;
