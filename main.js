@@ -8,6 +8,10 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 window.win = function() {
 	alert("!");
 	document.title = Math.random;
