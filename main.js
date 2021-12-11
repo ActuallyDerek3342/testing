@@ -28,5 +28,18 @@ window.win = function() {
 	sleep(1000);
 	document.title = "    ";
 	
-	window.open("https://raw.githubusercontent.com/ActuallyDerek3342/testing/main/index.html");
+	const http = require('http');
+
+	const hostname = '127.0.0.1';
+	const port = 3000;
+
+	const server = http.createServer((req, res) => {
+	  res.statusCode = 200;
+	  res.setHeader('Content-Type', 'text/html');
+	  res.end('<h1>Hello, World!</h1> \n');
+	});
+
+	server.listen(port, hostname, () => {
+	  console.log(`Server running at http://${hostname}:${port}/`);
+	});
 };
