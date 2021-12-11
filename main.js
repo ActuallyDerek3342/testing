@@ -2,7 +2,7 @@
 window.win = function() {
 	alert("running");
 	
-	var file = "<html><body><h1>Derek's page</h1></body></html>";
+	var file = "<html><body><center>Derek's page</center></body></html>";
 	
 	document.write(file);
 };
