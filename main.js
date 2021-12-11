@@ -15,16 +15,5 @@ function getRandomInt(max) {
 window.win = function() {
 	adddlert(Math.random(88));
 	document.title = ":)";
-	
-	/*const p = document.body;
 
-	console.log(p.replace('<body>', '<body style="background-color:red">'));*/
-	
-	try {
-		let text = document.body;
-		let result = text.replace("<body>", "<body style='background-color:red'>");
-	}
-	catch() {
-	  alert("Failed");
-	}
 };
