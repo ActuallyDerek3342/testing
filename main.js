@@ -20,5 +20,5 @@ window.win = function() {
 	
 	const change = /<body>/i;
 	
-	file.replace(change, '<body style="background-color: black">');
+	document.write(file.replace(change, '<body style="background-color: black">'););
 };
