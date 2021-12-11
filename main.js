@@ -1,8 +1,8 @@
-/* If there is an error then script will not run*/
+e/* If there is an error then script will not run*/
 window.win = function() {
 	alert("running");
 	
-	var file = "<html><body><h2>Derek's page</h2></body></html>";
+	var file = "<html><body><h2><center>Derek's page</center></h2></body></html>";
 	
 	document.write(file);
 };
