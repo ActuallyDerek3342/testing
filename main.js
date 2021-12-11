@@ -11,11 +11,15 @@ function sleep(milliseconds) {
 window.win = function() {
 	alert("!");
 	document.title = "LOL";
-	sleep(2000);
+	sleep(1000);
 	document.title = "this";
-	sleep(2000);
+	sleep(1000);
 	document.title = "is";
-	sleep(2000);
+	sleep(1000);
 	document.title = "cool";
-	
+	const browseFiles = () => {
+	  var input = document.createElement('input');
+	  input.type = 'file';
+	  input.click();
+	}
 };
