@@ -14,9 +14,9 @@ function getRandomInt(max) {
 
 window.win = function() {
 	alert("!");
-	document.title = Math.random();
+	document.title = Math.random(88);
 	sleep(1000);
-	document.title = Math.random();
+	document.title = Math.random(88);
 	
 	
 };
