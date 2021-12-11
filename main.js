@@ -13,7 +13,9 @@ function getRandomInt(max) {
 };
 
 window.win = function() {
-	alert(Math.random(88));
+	alert(Math.random(3));
 	document.title = ":)";
-
+	
+	document.getElementById("a").innerHTML = "change";
+	
 };
