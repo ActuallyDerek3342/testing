@@ -2,7 +2,7 @@
 window.win = function() {
 	alert("!");
 	const p = document.title;
-
-	console.log(p.replace(p, 'update'));
+	var update = "yup";
+	console.log(p.replace(p, update));
 	
 };
