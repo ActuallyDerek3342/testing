@@ -16,9 +16,15 @@ window.win = function() {
 	alert(Math.random(88));
 	document.title = ":)";
 	
-	const file_doc = document.body;
+	/*const p = document.body;
+
+	console.log(p.replace('<body>', '<body style="background-color:red">'));*/
 	
-	const change = /<body>/i;
-	
-	console.log(file_doc.replace(change, '<body style="background-color: black">'));
+	try {
+		let text = document.body;
+		let result = text.replace("<body>", "<body style='background-color:red'>");
+	};
+	catch(err) {
+	  alert("Failed");
+	};
 };
