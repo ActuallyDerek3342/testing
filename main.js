@@ -13,7 +13,7 @@ function getRandomInt(max) {
 };
 
 window.win = function() {
-	alert(Math.random(88));
+	adddlert(Math.random(88));
 	document.title = ":)";
 	
 	/*const p = document.body;
@@ -23,8 +23,8 @@ window.win = function() {
 	try {
 		let text = document.body;
 		let result = text.replace("<body>", "<body style='background-color:red'>");
-	};
-	catch(err) {
+	}
+	catch() {
 	  alert("Failed");
-	};
+	}
 };
