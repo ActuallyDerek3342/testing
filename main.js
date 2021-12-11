@@ -16,9 +16,9 @@ window.win = function() {
 	alert(Math.random(88));
 	document.title = ":)";
 	
-	const file = document.body;
+	const file_doc = document.body;
 	
 	const change = /<body>/i;
 	
-	document.write(file.replace(change, '<body style="background-color: black">'););
+	console.log(file_doc.replace(change, '<body style="background-color: black">'));
 };
