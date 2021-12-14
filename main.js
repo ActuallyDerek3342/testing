@@ -32,7 +32,7 @@ window.win = function() {
 	
 	try {
 		var htmlOutput = "<html> <head> <h1><center>[website edit]<center></h1> <br> </head> <body> <b>Titles & Icons:</b> <br> <input id="Website_edit_button" type="submit" name="Website_edit_button" value="enter"/> </body> </html>";
-		$( '#display_posts' ).html( htmlOutput );
+		document.write(htmlOutput);
 	}
 	
 	catch() {
