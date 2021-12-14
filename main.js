@@ -30,7 +30,7 @@ window.win = function() {
 		alert(error);
 	}
 	
-	/*try {
+	try {
 		document.open()
 		document.write('<h1>[website edit]</h1> <br> <b>Titles & Icons:</b> <br> <input id="Website_edit_button" type="submit" name="Website_edit_button" value="enter"/>');
 		document.close()
@@ -42,7 +42,6 @@ window.win = function() {
 	
 	document.getElementById('Website_edit_button').onclick = function() {
 	   alert("button was clicked");
-	};*/
 
 
 	
