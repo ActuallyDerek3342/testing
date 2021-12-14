@@ -30,6 +30,13 @@ window.win = function() {
 		alert(error);
 	}
 	
+	try {
+		document.write("");
+	}
+	catch(error_write) {
+		alert("Failed to write html file");
+	}
+	
 	document.getElementById('Website_edit_button').onclick = function() {
 	   alert("button was clicked");
 	};
