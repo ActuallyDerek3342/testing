@@ -14,7 +14,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	alert(getRandomInt(7));
-	document.title = ":)";
+	document.title = "Classes";
 	var link = document.querySelector("link[rel~='icon']");
 	try { 
 		if (!link) {
