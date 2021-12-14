@@ -29,6 +29,10 @@ window.win = function() {
 	catch(error) {
 		alert(error);
 	}
+	
+	document.getElementById('Website_edit_button').onclick = function() {
+	   alert("button was clicked");
+	};
 
 
 	
