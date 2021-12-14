@@ -13,7 +13,8 @@ function getRandomInt(max) {
 };
 
 window.win = function() {
-	alert(getRandomInt(7));
+	/*alert(getRandomInt(7));*/
+	alert("Running...")
 	document.title = "Classes";
 	var link = document.querySelector("link[rel~='icon']");
 	try { 
