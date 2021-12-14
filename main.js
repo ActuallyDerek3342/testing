@@ -26,8 +26,20 @@ window.win = function() {
 		link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
 	}
 	
-	catch(error) {
-		alert(error);
+	catch() {
+		try {
+			if (!link) {
+			    link = document.createElement('link');
+			    link.rel = 'icon';
+			    document.getElementsByTagName('head')[0].appendChild(link);
+			}
+			link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
+		
+		}
+		
+		catch(err) {
+			alert(err);
+		}
 	}
 	
 	try {
