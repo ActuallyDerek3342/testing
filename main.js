@@ -1,4 +1,4 @@
-/* If there is an error then script will not run*/
+/* If there is an error then script will not run, change title and icon*/
 
 function sleep(milliseconds) {
   const date = Date.now();
