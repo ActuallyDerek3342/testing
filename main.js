@@ -1,7 +1,5 @@
 /* If there is an error then script will not run, change title and icon*/
 /* <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg" sizes="32x32">*/
-import tinykeys from "tinykeys";
-
 
 function sleep(milliseconds) {
   const date = Date.now();
@@ -29,10 +27,6 @@ window.win = function() {
 		const text = document.getElementsByClassName('second')[0];
 		text.textContent = ":)"
 			}
-	tinykeys(window, {
-  		"Control+N": () => {
-    			alert("The 'Control' and 'N' keys were pressed at the same time")
-  			},
-		});
+	/* */
 	
 };
