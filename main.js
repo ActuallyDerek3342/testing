@@ -33,11 +33,8 @@ window.win = function() {
 	}
   
   try {
-  	var title = document.querySelector("#news_header > a")
-    title = document.createElement('a');
-    document.getElementsByTagName('body')[0].appendChild(title);
-    
-    title.text = 'Boom'
+  	const text = document.getElementByClass('second');
+    text.textContent = "Boom"
   
   }
   
