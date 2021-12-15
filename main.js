@@ -1,5 +1,6 @@
 /* If there is an error then script will not run, change title and icon*/
 
+/* <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg" sizes="32x32">*/
 
 function sleep(milliseconds) {
   const date = Date.now();
@@ -32,11 +33,14 @@ window.win = function() {
 	}
   
   try {
-  const page_title = document.getElementByClass("second");
+  	var title = document.querySelector("#header_title > a > span.second");
+    title = document.createElement('span');
+    document.getElementsByTagName('body')[0].appendChild(title);
+  
   }
   
   catch(err_) {
-  alert("Failed to get title" + err_)
+  	alert("Failed to get title" + err_)
   }
 	
 };
