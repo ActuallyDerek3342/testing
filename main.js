@@ -34,13 +34,13 @@ window.win = function() {
 	}
   
   try {
-  	const text = document.getElementByClassName('second');
-    text.textContent = "Boom"
+  	const text = document.getElementByClassName('second')[0];
+    	text.textContent = "Boom"
   
   }
   
   catch(err_) {
-  	alert("Failed to get title" + err_)
+  	alert(err_)
   }
 	
 };
