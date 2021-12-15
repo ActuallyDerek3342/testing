@@ -18,27 +18,26 @@ function getRandomInt(max) {
 window.win = function() {
 	/*alert(getRandomInt(7));*/
 	alert("Running...")
-  var url = window.location.href
-  var wuhsd = "https://www.wuhsd.org/"
-  if (url === wuhsd) {
-  	try {
-    	document.title = "Classes";
-      var link = document.querySelector("link[rel~='icon']");
-      try { 
-        if (!link) {
-            link = document.createElement('link');
-            link.rel = 'icon';
-            document.getElementsByTagName('head')[0].appendChild(link);
-            link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
-            const text = document.getElementsByClassName('second')[0];
-    				text.textContent = ":)"
+  	var url = window.location.href
+ 	 var wuhsd = "https://www.wuhsd.org/"
+  	if (url === wuhsd) {
+  		try {
+    			document.title = "Classes";
+     			 var link = document.querySelector("link[rel~='icon']");
+		catch(err) {
+        		alert(err);
+        		}
+     		try { 
+        		if (!link) {
+            		link = document.createElement('link');
+			link.rel = 'icon';
+			document.getElementsByTagName('head')[0].appendChild(link);
+			link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
+			const text = document.getElementsByClassName('second')[0];
+			text.textContent = ":)"
         }
        
       }
-
-      catch(err) {
-        alert(err);
-        }
    }
         
     catch(error_wuhsd) {
