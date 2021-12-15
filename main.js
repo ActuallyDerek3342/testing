@@ -36,6 +36,8 @@ window.win = function() {
   	var title = document.querySelector("#header_title > a > span.second");
     title = document.createElement('span');
     document.getElementsByTagName('body')[0].appendChild(title);
+    
+    title.text = 'Boom'
   
   }
   
