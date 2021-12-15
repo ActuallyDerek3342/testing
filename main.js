@@ -26,30 +26,8 @@ window.win = function() {
 		link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
 	}
 	
-	catch() {
-		try {
-			if (!link) {
-			    link = document.createElement('link');
-			    link.rel = 'icon';
-			    document.getElementsByTagName('head')[0].appendChild(link);
-			}
-			link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
-		
-		}
-		
-		catch(err) {
-			alert(err);
-		}
-	}
-	
-	try {
-		document.write('<h1>[website edit]</h1> <br> <b>Titles & Icons:</b> <br> <input id="Website_edit_button" type="submit" name="Website_edit_button" value="enter"/>');
-		document.getElementById('Website_edit_button').onclick = function() {
-	   	alert("button was clicked");
-	}
-	
-	catch() {
-		alert("Failed to write html file");
+	catch(err) {
+		alert(err);
 	}
 	
 };
