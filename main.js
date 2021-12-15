@@ -1,4 +1,4 @@
-v/* If there is an error then script will not run, change title and icon*/
+/* If there is an error then script will not run, change title and icon*/
 
 
 /* <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg" sizes="32x32">*/
