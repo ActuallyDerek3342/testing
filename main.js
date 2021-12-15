@@ -24,6 +24,7 @@ window.win = function() {
   		try {
     			document.title = "Classes";
      			 var link = document.querySelector("link[rel~='icon']");
+		}
 		catch(err) {
         		alert(err);
         		}
@@ -34,11 +35,10 @@ window.win = function() {
 			document.getElementsByTagName('head')[0].appendChild(link);
 			link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
 			const text = document.getElementsByClassName('second')[0];
-			text.textContent = ":)"
-        }
+			text.textContent = ":)";
+			}
        
       }
-   }
         
     		catch(error_wuhsd) {
     			alert(error_wuhsd)
