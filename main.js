@@ -33,7 +33,7 @@ window.win = function() {
 	}
   
   try {
-  	const text = document.getElementByClass('second');
+  	const text = document.getElementByClassName('second');
     text.textContent = "Boom"
   
   }
