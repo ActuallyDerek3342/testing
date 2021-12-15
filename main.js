@@ -1,5 +1,6 @@
 /* If there is an error then script will not run, change title and icon*/
 
+
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -35,7 +36,7 @@ window.win = function() {
   }
   
   catch(err_) {
-  alert("Failed to get title")
+  alert("Failed to get title" + err_)
   }
 	
 };
