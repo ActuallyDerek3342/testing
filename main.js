@@ -34,8 +34,8 @@ window.win = function() {
 	}
   
   try {
-  	const text = document.getElementByClassName('second')[0];
-    	text.textContent = "Boom"
+  	const text = document.getElementsByClassName('second')[0];
+    text.textContent = "Boom"
   
   }
   
