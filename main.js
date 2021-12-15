@@ -19,7 +19,7 @@ window.win = function() {
 	/*alert(getRandomInt(7));*/
 	alert("Running...")
   	var url = window.location.href
- 	 var wuhsd = "https://www.wuhsd.org/"
+ 	var wuhsd = "https://www.wuhsd.org/"
   	if (url === wuhsd) {
   		try {
     			document.title = "Classes";
