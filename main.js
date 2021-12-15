@@ -6,11 +6,11 @@ function sleep(milliseconds) {
   do {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
-};
+}
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
-};
+}
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
@@ -29,5 +29,13 @@ window.win = function() {
 	catch(err) {
 		alert(err);
 	}
+  
+  try {
+  const page_title = document.getElementByClass("second");
+  }
+  
+  catch(err_) {
+  alert("Failed to get title")
+  }
 	
 };
