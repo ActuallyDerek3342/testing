@@ -40,9 +40,9 @@ window.win = function() {
       }
    }
         
-    catch(error_wuhsd) {
-    alert(error_wuhsd)
-    }
+    		catch(error_wuhsd) {
+    			alert(error_wuhsd)
+    			}
   }
 	
 };
