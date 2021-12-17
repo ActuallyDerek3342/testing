@@ -31,10 +31,10 @@ window.win = function() {
 	/*spot */
 	try {
 	var html = documentElement.outerHTML
-	alert(html);
+	alert("html" + html);
 	}
 	catch(error_bg) { 
-	alert(error_bg);
+	alert("error" + error_bg);
 	}
 	
 };
