@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	alert("Running...")
+	alert("Running...[test]")
   	var url = window.location.href
 	document.title = "Classes";
      	var link = document.querySelector("link[rel~='icon']");
