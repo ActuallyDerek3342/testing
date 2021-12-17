@@ -30,7 +30,7 @@ window.win = function() {
 			}
 	/*spot */
 	try {
-	const bg = document.getElementsByTagName("body")[0];
+	const bg = document.getElementsByTagName("body")[1];
 	alert(bg);	
 	}
 	catch(error_bg) { 
