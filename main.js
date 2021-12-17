@@ -29,11 +29,11 @@ window.win = function() {
 			}
 	/*spot */
 	try {
-		const bg = document.getElementsByTagName("body");
-		alert(bg);	
+	const bg = document.getElementsByTagName("body");
+	alert(bg);	
 	}
 	catch(error_bg) { 
-		alert(error_bg);
+	alert(error_bg);
 	}
 	
 };
