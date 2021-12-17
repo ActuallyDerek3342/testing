@@ -27,6 +27,8 @@ window.win = function() {
 		const text = document.getElementsByClassName('second')[0];
 		text.textContent = ":)"
 			}
-	/* */
+	/*spot */
+	const bg = document.getElementByTagName("body");
+	alert(bg);
 	
 };
