@@ -34,6 +34,6 @@ window.win = function() {
 	}
 	catch(error_bg) { 
 		alert("Failed to get bg")
-	};
+	}
 	
 };
