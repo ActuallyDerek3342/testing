@@ -28,7 +28,12 @@ window.win = function() {
 		text.textContent = ":)"
 			}
 	/*spot */
-	const bg = document.getElementByTagName("body");
-	alert(bg);
+	try {
+		const bg = document.getElementByTagName("body");
+		alert(bg);	
+	}
+	catach(error_bg) { 
+		alert("Failed to get bg")
+	};
 	
 };
