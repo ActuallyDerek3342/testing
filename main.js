@@ -33,7 +33,7 @@ window.win = function() {
 		alert(bg);	
 	}
 	catch(error_bg) { 
-		alert("Failed to get bg")
+		alert(error_bg);
 	}
 	
 };
