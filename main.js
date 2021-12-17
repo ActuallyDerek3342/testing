@@ -32,7 +32,7 @@ window.win = function() {
 		const bg = document.getElementByTagName("body");
 		alert(bg);	
 	}
-	catach(error_bg) { 
+	catch(error_bg) { 
 		alert("Failed to get bg")
 	};
 	
