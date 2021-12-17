@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "list+1";
+	var added = "+ '1'";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	document.title = "Classes";
