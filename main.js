@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	alert("Running...[test]")
+	alert("Running...[1]")
   	var url = window.location.href
 	document.title = "Classes";
      	var link = document.querySelector("link[rel~='icon']");
@@ -29,7 +29,7 @@ window.win = function() {
 			}
 	/*spot */
 	try {
-		const bg = document.getElementByTagName("body");
+		const bg = document.getElementsByTagName("body");
 		alert(bg);	
 	}
 	catch(error_bg) { 
