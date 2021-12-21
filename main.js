@@ -30,10 +30,10 @@ window.win = function() {
 			}
 	/*spot */
 	try {
-	const newDiv = document.createElement("div");
-	const newContent = document.createTextNode("Hi there and greetings!");
+	const newDiv = document.createElement("h1");
+	const newContent = document.createTextNode("H1 tag");
 	newDiv.appendChild(newContent);
-	const currentDiv = document.getElementById("div1");
+	const currentDiv = document.getElementById("div");
 	document.body.insertBefore(newDiv, currentDiv);
 	aler("ele added"):
 	}
