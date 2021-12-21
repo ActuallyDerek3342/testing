@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "+ 'alert'";
+	var added = "new ele";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	document.title = "Classes";
@@ -30,11 +30,14 @@ window.win = function() {
 			}
 	/*spot */
 	try {
-	var html = documentElement.outerHTML
-	alert("html" + html);
+	const newDiv = document.createElement("div");
+	const newContent = document.createTextNode("Hi there and greetings!");
+	newDiv.appendChild(newContent);
+	const currentDiv = document.getElementById("div1");
+	document.body.insertBefore(newDiv, currentDiv);
 	}
 	catch(error_bg) { 
-	alert("error" + error_bg);
+	alert("Error: " + error_bg);
 	}
 	
 };
