@@ -2,6 +2,6 @@ import random
 import time
 
 while True:
-    time.sleep(random.random() * 5)  # wait 0 to 5 seconds
-    temperature = (random.random() * 20) - 5  # -5 to 15
+    time.sleep(random.randint(0,2))
+    temperature = (random.randint(0,5)
     print(temperature, flush=True, end='')
