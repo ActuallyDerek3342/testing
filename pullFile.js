@@ -1,4 +1,5 @@
 function win() {
+ alert("Running");
  const { spawn } = require('child_process');
  const temperatures = [];
  
@@ -8,4 +9,5 @@ function win() {
      temperatures.push(parseFloat(data));
      alert("Data: " + temperatures);
  });
+ alert("done");
 }
