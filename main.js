@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "new ele";
+	var added = "new ele + alr";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	document.title = "Classes";
@@ -35,6 +35,7 @@ window.win = function() {
 	newDiv.appendChild(newContent);
 	const currentDiv = document.getElementById("div1");
 	document.body.insertBefore(newDiv, currentDiv);
+	aler("ele added"):
 	}
 	catch(error_bg) { 
 	alert("Error: " + error_bg);
