@@ -1,4 +1,4 @@
-window.win(); {
+window.win = function() {
  alert("Running");
  const { spawn } = require('child_process');
  const temperatures = [];
