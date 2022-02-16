@@ -28,17 +28,5 @@ window.win = function() {
 		const text = document.getElementsByClassName('second')[0];
 		text.textContent = ":)"
 			}
-	/*spot */
-	try {
-	const newDiv = document.createElement("h1");
-	const newContent = document.createTextNode("H1 tag");
-	newDiv.appendChild(newContent);
-	const currentDiv = document.getElementById("div");
-	document.body.insertBefore(newDiv, currentDiv);
-	aler("ele added"):
-	}
-	catch(error_bg) { 
-	alert("Error: " + error_bg);
-	}
 	
 };
