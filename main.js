@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "div -> h1";
+	var added = "[-] lines";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	document.title = "Classes";
