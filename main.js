@@ -19,7 +19,7 @@ window.win = function() {
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	
-	var title_name = window.prompt(">>");
+	var title_name = window.prompt("(E) title>");
 	
 	document.title = title_name;
      	var link = document.querySelector("link[rel~='icon']");
