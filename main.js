@@ -15,7 +15,7 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "keywords*";
+	var added = "; ";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	
@@ -27,7 +27,7 @@ window.win = function() {
 	
 	else{
 		link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
-	}
+	};
 	
 	document.title = title_name;
      	var link = document.querySelector("link[rel~='icon']");
