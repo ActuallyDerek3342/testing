@@ -15,19 +15,12 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "; ";
+	var added = "custom icon";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
 	
 	var title_name = window.prompt("(E) title>");
-	
-	if(title_name == "supreme") {
-		link.href = 'https://assets.supremenewyork.com/images/apple-touch-icon-57x57.png';
-	}
-	
-	else{
-		link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';
-	};
+	var icon_img = window.prompt("(E) icon>");
 	
 	document.title = title_name;
      	var link = document.querySelector("link[rel~='icon']");
@@ -35,7 +28,7 @@ window.win = function() {
         	link = document.createElement('link');
 		link.rel = 'icon';
 		document.getElementsByTagName('head')[0].appendChild(link);
-		/*link.href = 'https://upload.wikimedia.org/wikipedia/commons/2/25/Google_Classroom_icon.svg';*/
+		link.href = icon_img;
 		const text = document.getElementsByClassName('second')[0];
 		text.textContent = ":)"
 			}
