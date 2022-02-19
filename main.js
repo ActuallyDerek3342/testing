@@ -15,10 +15,13 @@ function getRandomInt(max) {
 
 window.win = function() {
 	/*alert(getRandomInt(7));*/
-	var added = "[-] lines";
+	var added = "title";
 	alert("Running...[" + added + "]")
   	var url = window.location.href
-	document.title = "Classes";
+	
+	var title_name = window.prompt(">>");
+	
+	document.title = title_name;
      	var link = document.querySelector("link[rel~='icon']");
 	if (!link) {
         	link = document.createElement('link');
